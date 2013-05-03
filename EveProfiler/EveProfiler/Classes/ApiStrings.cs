@@ -19,15 +19,15 @@ namespace EveProfiler.Classes
         private static string Contact_List = @"/char/ContactList.xml.aspx";
         private static string Contact_Notif = @"/char/ContactNotifications.xml.aspx";
         private static string Contacts = @"/char/Contracts.xml.aspx";
-        private static string ContractItems = @"/char/ContractItems.xml.aspx";
-        private static string ContractBids = @"/char/ContractBids.xml.aspx";
+        private static string Contract_Items = @"/char/ContractItems.xml.aspx";
+        private static string Contract_Bids = @"/char/ContractBids.xml.aspx";
         private static string Factional_Warfare_Stats = @"/char/FacWarStats.xml.aspx";
         private static string Industry_Jobs = @"/char/IndustryJobs.xml.aspx";
-        private static string KillMails = @"/char/Killlog.xml.aspx";
+        private static string Kill_Mails = @"/char/Killlog.xml.aspx";
         private static string Locations = @"/char/Locations.xml.aspx";
         private static string Mail_Bodies = @"/char/MailBodies.xml.aspx";
         private static string Mailing_Lists = @"/char/MailingLists.xml.aspx";
-        private static string MailMessHeaders = @"/char/MailMessages.xml.aspx";
+        private static string Mail_Mess_Headers = @"/char/MailMessages.xml.aspx";
         private static string Market_Orders = @"/char/MarketOrders.xml.aspx";
         private static string Medals = @"/char/Medals.xml.aspx";
         private static string Notifications = @"/char/Notifications.xml.aspx";
@@ -48,6 +48,36 @@ namespace EveProfiler.Classes
         public static string AccountStatus { get { return Account_Status; } }
         public static string APIKeyInfo { get { return API_Key_Info; } }
         public static string ListCharacters { get { return List_Characters; } }
+        public static string AssetList { get { return Asset_List; } }
+        public static string CalEventAttendees { get { return Cal_Event_Attendees; } }
+        public static string CharacterSheet { get { return Character_Sheet; } }
+        public static string ContactList { get { return Contact_List; } }
+        public static string ContactNotif { get { return Contact_Notif; } }
+        public static string MyContacts { get { return Contacts; } }
+        public static string ContractItems { get { return Contract_Items; } }
+        public static string ContractBids { get { return Contract_Bids; } }
+        public static string FactionalWarfareStats { get { return Factional_Warfare_Stats; } }
+        public static string IndustryJobs { get { return Industry_Jobs; } }
+        public static string KillMails { get { return Kill_Mails; } }
+        public static string MyLocations { get { return Locations; } }
+        public static string MailBodies { get { return Mail_Bodies; } }
+        public static string MailingLists { get { return Mailing_Lists; } }
+        public static string MailMessHeaders { get { return Mail_Mess_Headers; } }
+        public static string MarketOrders { get { return Market_Orders; } }
+        public static string MyMedals { get { return Medals; } }
+        public static string MyNotifications { get { return Notifications; } }
+        public static string NotificationText { get { return Notification_Text; } }
+        public static string MyResearch { get { return Research; } }
+        public static string SkillinTraining { get { return Skill_in_Training; } }
+        public static string SkillQueue { get { return Skill_Queue; } }
+        public static string NPCStandings { get { return NPC_Standings; } }
+        public static string UpcomingCalEvents { get { return Upcoming_Cal_Events; } }
+        public static string WalletJournal { get { return Wallet_Journal; } }
+        public static string WalletTransactions { get { return Wallet_Transactions; } }
+
+        public static string CharacterPortrait { get { return Character_Portrait; } }
+        public static string CorpLogo { get { return Corp_Logo; } }
+        public static string AllianceLogo { get { return Alliance_Logo; } }
         
 
 
