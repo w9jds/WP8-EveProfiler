@@ -12,11 +12,8 @@ namespace EveProfiler.Controls
 {
     public partial class CharacterControl : UserControl
     {
-        public CharacterControl(Classes.CharacterInfo Character)
+        public CharacterControl()
         {
-
-
-
             InitializeComponent();
 
 

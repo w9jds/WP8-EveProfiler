@@ -20,6 +20,7 @@ namespace EveProfiler
         {
             InitializeComponent();
 
+
             // Sample code to localize the ApplicationBar
             //BuildLocalizedApplicationBar();
         }

@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!--
-    Microsoft ResX Schema
-
+  <!-- 
+    Microsoft ResX Schema 
+    
     Version 2.0
-
-    The primary goals of this format is to allow a simple XML format
-    that is mostly human readable. The generation and parsing of the
-    various data types are done through the TypeConverter classes
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
     associated with the data types.
-
+    
     Example:
-
+    
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-
-    There are any number of "resheader" rows that contain simple
+                
+    There are any number of "resheader" rows that contain simple 
     name/value pairs.
-
-    Each data row contains a name, and value. The row also contains a
-    type or mimetype. Type corresponds to a .NET class that support
-    text/value conversion through the TypeConverter architecture.
-    Classes that don't support this are serialized and stored with the
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
     mimetype set.
-
-    The mimetype is used for serialized objects, and tells the
-    ResXResourceReader how to depersist the object. This is currently not
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
     extensible. For a given mimetype the value must be set accordingly:
-
-    Note - application/x-microsoft.net.object.binary.base64 is the format
-    that the ResXResourceWriter will generate, however the reader can
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
     read any of the formats listed below.
-
+    
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-
+    
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array
+    value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -133,5 +133,107 @@
   </data>
   <data name="AppBarMenuItemText" xml:space="preserve">
     <value>Menu Item</value>
+  </data>
+  <data name="Account_Balance" xml:space="preserve">
+    <value>/char/AccountBalance.xml.aspx</value>
+  </data>
+  <data name="Account_Status" xml:space="preserve">
+    <value>/account/AccountStatus.xml.aspx</value>
+  </data>
+  <data name="Alliance_Logo" xml:space="preserve">
+    <value>http://image.eveonline.com/Alliance/</value>
+  </data>
+  <data name="API_Key_Info" xml:space="preserve">
+    <value>/account/APIKeyInfo.xml.aspx</value>
+  </data>
+  <data name="Api_Uri" xml:space="preserve">
+    <value>https://api.eveonline.com</value>
+  </data>
+  <data name="Asset_List" xml:space="preserve">
+    <value>/char/AssetList.xml.aspx</value>
+  </data>
+  <data name="Cal_Event_Attendees" xml:space="preserve">
+    <value>/char/CalendarEventAttendees.xml.aspx</value>
+  </data>
+  <data name="Character_Portrait" xml:space="preserve">
+    <value>http://image.eveonline.com/Character/</value>
+  </data>
+  <data name="Character_Sheet" xml:space="preserve">
+    <value>/char/CharacterSheet.xml.aspx</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>/char/Contracts.xml.aspx</value>
+  </data>
+  <data name="Contact_List" xml:space="preserve">
+    <value>/char/ContactList.xml.aspx</value>
+  </data>
+  <data name="Contact_Notif" xml:space="preserve">
+    <value>/char/ContactNotifications.xml.aspx</value>
+  </data>
+  <data name="Contract_Bids" xml:space="preserve">
+    <value>/char/ContractBids.xml.aspx</value>
+  </data>
+  <data name="Contract_Items" xml:space="preserve">
+    <value>/char/ContractItems.xml.aspx</value>
+  </data>
+  <data name="Corp_Logo" xml:space="preserve">
+    <value>http://image.eveonline.com/Corporation/</value>
+  </data>
+  <data name="Factional_Warfare_Stats" xml:space="preserve">
+    <value>/char/FacWarStats.xml.aspx</value>
+  </data>
+  <data name="Industry_Jobs" xml:space="preserve">
+    <value>/char/IndustryJobs.xml.aspx</value>
+  </data>
+  <data name="Kill_Mails" xml:space="preserve">
+    <value>/char/Killlog.xml.aspx</value>
+  </data>
+  <data name="List_Characters" xml:space="preserve">
+    <value>/account/Characters.xml.aspx</value>
+  </data>
+  <data name="Locations" xml:space="preserve">
+    <value>/char/Locations.xml.aspx</value>
+  </data>
+  <data name="Mailing_Lists" xml:space="preserve">
+    <value>/char/MailingLists.xml.aspx</value>
+  </data>
+  <data name="Mail_Bodies" xml:space="preserve">
+    <value>/char/MailBodies.xml.aspx</value>
+  </data>
+  <data name="Mail_Mess_Headers" xml:space="preserve">
+    <value>/char/MailMessages.xml.aspx</value>
+  </data>
+  <data name="Market_Orders" xml:space="preserve">
+    <value>/char/MarketOrders.xml.aspx</value>
+  </data>
+  <data name="Medals" xml:space="preserve">
+    <value>/char/Medals.xml.aspx</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>/char/Notifications.xml.aspx</value>
+  </data>
+  <data name="Notification_Text" xml:space="preserve">
+    <value>/char/NotificationTexts.xml.aspx</value>
+  </data>
+  <data name="NPC_Standings" xml:space="preserve">
+    <value>/char/Standings.xml.aspx</value>
+  </data>
+  <data name="Research" xml:space="preserve">
+    <value>/char/Research.xml.aspx</value>
+  </data>
+  <data name="Skill_in_Training" xml:space="preserve">
+    <value>/char/SkillInTraining.xml.aspx</value>
+  </data>
+  <data name="Skill_Queue" xml:space="preserve">
+    <value>/char/SkillQueue.xml.aspx</value>
+  </data>
+  <data name="Upcoming_Cal_Events" xml:space="preserve">
+    <value>/char/UpcomingCalendarEvents.xml.aspx</value>
+  </data>
+  <data name="Wallet_Journal" xml:space="preserve">
+    <value>/char/WalletJournal.xml.aspx</value>
+  </data>
+  <data name="Wallet_Transactions" xml:space="preserve">
+    <value>/char/WalletTransactions.xml.aspx</value>
   </data>
 </root>

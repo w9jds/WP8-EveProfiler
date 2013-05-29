@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EveProfiler.Classes
+namespace EveProfiler.Classes.Character
 {
-    class CallApi
+    class List
     {
-
-
-
-
+        public static string characterID { get; set; }
     }
 }
