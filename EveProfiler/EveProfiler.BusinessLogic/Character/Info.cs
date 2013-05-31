@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EveProfiler.Classes.Character
+namespace EveProfiler.BusinessLogic.Character
 {
-    class Info
+    public class Info
     {
         //Character Info
         public static string name { get; set; }

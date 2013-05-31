@@ -20,7 +20,7 @@ namespace EveProfiler
         {
             InitializeComponent();
 
-
+            new DataAccess.Get().getCharacterList();
             // Sample code to localize the ApplicationBar
             //BuildLocalizedApplicationBar();
         }

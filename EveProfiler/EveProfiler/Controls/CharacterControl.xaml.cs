@@ -15,10 +15,12 @@ namespace EveProfiler.Controls
         public CharacterControl()
         {
             InitializeComponent();
-
-
-
-
         }
+
+
+
+
+
+
     }
 }

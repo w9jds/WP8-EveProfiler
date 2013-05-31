@@ -17,3 +17,30 @@ c:\users\jeremy\documents\visual studio 2012\Projects\EveProfiler\EveProfiler\ob
 c:\users\jeremy\documents\visual studio 2012\Projects\EveProfiler\EveProfiler\obj\Debug\EveProfiler.dll
 c:\users\jeremy\documents\visual studio 2012\Projects\EveProfiler\EveProfiler\obj\Debug\EveProfiler.pdb
 c:\users\jeremy\documents\visual studio 2012\Projects\EveProfiler\EveProfiler\obj\Debug\XapCacheFile.xml
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\EveProfiler.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\EveProfiler.pdb
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\EveProfiler.Core.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\EveProfiler.DataAccess.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\EveProfiler.Core.pdb
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\EveProfiler.DataAccess.pdb
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\EveProfiler.csprojResolveAssemblyReference.cache
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\App.g.cs
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\Controls\CharacterControl.g.cs
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\MainPage.g.cs
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\EveProfiler.g.resources
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\EveProfiler.Resources.AppResources.resources
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\EveProfiler.csproj.GenerateResource.Cache
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\EveProfiler.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\EveProfiler.pdb
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\AppManifest.xaml
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\EveProfiler_Debug_AnyCPU.xap
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\XapCacheFile.xml
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\EveProfiler.BusinessLogic.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\EveProfiler.BusinessLogic.pdb

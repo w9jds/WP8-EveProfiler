@@ -83,8 +83,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ApiStrings.cs" />
+    <Compile Include="Get.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EveProfiler.BusinessLogic\EveProfiler.BusinessLogic.csproj">
+      <Project>{FDB49902-A8DE-4BA6-8777-A3370D98FAB1}</Project>
+      <Name>EveProfiler.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EveProfiler.Core\EveProfiler.Core.csproj">
+      <Project>{DA2BD6AC-D5E3-4C6D-BA2D-965B50498D02}</Project>
+      <Name>EveProfiler.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />

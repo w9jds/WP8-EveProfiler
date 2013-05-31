@@ -1,0 +1,9 @@
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAccess\Bin\Debug\EveProfiler.DataAccess.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAccess\Bin\Debug\EveProfiler.DataAccess.pdb
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAccess\Bin\Debug\EveProfiler.Core.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAccess\Bin\Debug\EveProfiler.Core.pdb
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAccess\obj\Debug\EveProfiler.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAccess\obj\Debug\EveProfiler.DataAccess.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAccess\obj\Debug\EveProfiler.DataAccess.pdb
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAccess\Bin\Debug\EveProfiler.BusinessLogic.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAccess\Bin\Debug\EveProfiler.BusinessLogic.pdb

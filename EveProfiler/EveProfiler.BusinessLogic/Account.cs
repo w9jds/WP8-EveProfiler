@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EveProfiler.Classes.Character
+namespace EveProfiler.BusinessLogic
 {
-    class List
+    public class Account
     {
-        public static string characterID { get; set; }
+        public List<Character.Character> Characters { get; set; }
     }
 }

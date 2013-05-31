@@ -93,9 +93,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Classes\ApiStrings.cs" />
-    <Compile Include="Classes\CallApi.cs" />
-    <Compile Include="Classes\CharacterInfo.cs" />
     <Compile Include="Controls\CharacterControl.xaml.cs">
       <DependentUpon>CharacterControl.xaml</DependentUpon>
     </Compile>
@@ -157,6 +154,20 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\EveProfiler.BusinessLogic\EveProfiler.BusinessLogic.csproj">
+      <Project>{FDB49902-A8DE-4BA6-8777-A3370D98FAB1}</Project>
+      <Name>EveProfiler.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EveProfiler.Core\EveProfiler.Core.csproj">
+      <Project>{DA2BD6AC-D5E3-4C6D-BA2D-965B50498D02}</Project>
+      <Name>EveProfiler.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EveProfiler.DataAccess\EveProfiler.DataAccess.csproj">
+      <Project>{96A3F961-DC98-4896-8D81-AF7A77F788BB}</Project>
+      <Name>EveProfiler.DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

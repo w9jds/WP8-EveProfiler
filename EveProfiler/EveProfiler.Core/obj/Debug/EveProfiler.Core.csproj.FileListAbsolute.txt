@@ -1,0 +1,7 @@
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.Core\Bin\Debug\EveProfiler.Core.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.Core\Bin\Debug\EveProfiler.Core.pdb
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.Core\obj\Debug\EveProfiler.Core.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.Core\obj\Debug\EveProfiler.Core.pdb
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.Core\Bin\Debug\EveProfiler.BusinessLogic.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.Core\Bin\Debug\EveProfiler.BusinessLogic.pdb
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.Core\obj\Debug\EveProfiler.Core.csprojResolveAssemblyReference.cache

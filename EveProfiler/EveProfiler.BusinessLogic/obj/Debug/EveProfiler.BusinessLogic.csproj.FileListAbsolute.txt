@@ -1,0 +1,4 @@
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.BusinessLogic\Bin\Debug\EveProfiler.BusinessLogic.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.BusinessLogic\Bin\Debug\EveProfiler.BusinessLogic.pdb
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.BusinessLogic\obj\Debug\EveProfiler.BusinessLogic.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.BusinessLogic\obj\Debug\EveProfiler.BusinessLogic.pdb
