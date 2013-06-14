@@ -9,23 +9,23 @@ namespace EveProfiler.BusinessLogic.Character
     public class Info
     {
         //Character Info
-        public static string name { get; set; }
-        public static string race { get; set; }
-        public static string bloodline { get; set; }
-        public static double accountBalance { get; set; }
-        public static double skillPoints { get; set; }
-        public static string shipName { get; set; }
-        public static string shipTypeID { get; set; }
-        public static string shipTypeName { get; set; }
-        public static string corporationID { get; set; }
-        public static string corporation { get; set; }
-        public static DateTime corporationDate { get; set; }
-        public static string allianceID { get; set; }
-        public static string alliance { get; set; }
-        public static DateTime alliancenDate { get; set; }
-        public static string lastKnownLocation { get; set; }
-        public static double securityStatus { get; set; }
+        public string name { get; set; }
+        public string race { get; set; }
+        public string bloodline { get; set; }
+        public double accountBalance { get; set; }
+        public double skillPoints { get; set; }
+        public string shipName { get; set; }
+        public string shipTypeID { get; set; }
+        public string shipTypeName { get; set; }
+        public string corporationID { get; set; }
+        public string corporation { get; set; }
+        public DateTime corporationDate { get; set; }
+        public string allianceID { get; set; }
+        public string alliance { get; set; }
+        public DateTime allianceDate { get; set; }
+        public string lastKnownLocation { get; set; }
+        public double securityStatus { get; set; }
         //employment history here
-        public static DateTime cachedUntil { get; set; }
+        public DateTime cachedUntil { get; set; }
     }
 }

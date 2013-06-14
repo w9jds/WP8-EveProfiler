@@ -6,14 +6,16 @@ using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Net.Browser;
 
 namespace EveProfiler.Core
 {
-    public static class ApiCalls
+    public class ApiCalls
     {
-        private static string Response = null;
+        public delegate void getResponded(string response);
+        public event getResponded ApiResponded;
 
-        public static string getCall(string urlbase, string urlpath, List<Parameters> PassedParms)
+        public void getCall(string urlbase, string urlpath, List<Parameters> PassedParms)
         {
             List<string> parms = new List<string>();
             for (int i = 0; i < PassedParms.Count; i++)
@@ -23,29 +25,31 @@ namespace EveProfiler.Core
 
             getXml.Method = "GET";
 
-            IAsyncResult result = getXml.BeginGetResponse(new AsyncCallback(getResponse), getXml);
-
-            result.AsyncWaitHandle.WaitOne();
-            
-            return Response;
-            
+            getXml.BeginGetResponse(new AsyncCallback(getResponse), getXml);
         }
 
-        private static void getResponse(IAsyncResult asynchronousResult)
+        private void getResponse(IAsyncResult ar)
         {
-            HttpWebRequest request = (HttpWebRequest)asynchronousResult.AsyncState;
+            try
+            {
+                HttpWebRequest getXml = ar.AsyncState as HttpWebRequest;
 
-            WebResponse response = request.EndGetResponse(asynchronousResult);
-            Response = new StreamReader(response.GetResponseStream()).ReadToEnd();
-
+                WebResponse result = getXml.EndGetResponse(ar);
+                 
+                ApiResponded(new StreamReader(result.GetResponseStream()).ReadToEnd());
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
         }
 
-        private static string NameValuePair(string name, string value)
+        private string NameValuePair(string name, string value)
         {
             return name + "=" + value;
         }
 
-        private static string CreateUrl(string baseurl, List<string> parms)
+        private string CreateUrl(string baseurl, List<string> parms)
         {
             baseurl += "?";
 
@@ -59,5 +63,6 @@ namespace EveProfiler.Core
 
             return baseurl;
         }
+
     }
 }

@@ -39,11 +39,13 @@ namespace EveProfiler.DataAccess
         private static string Upcoming_Cal_Events = @"/char/UpcomingCalendarEvents.xml.aspx";
         private static string Wallet_Journal = @"/char/WalletJournal.xml.aspx";
         private static string Wallet_Transactions = @"/char/WalletTransactions.xml.aspx";
+        private static string Character_Info = @"/eve/CharacterInfo.xml.aspx";
 
         private static string Character_Portrait = @"http://image.eveonline.com/Character/";
         private static string Corp_Logo = @"http://image.eveonline.com/Corporation/";
         private static string Alliance_Logo = @"http://image.eveonline.com/Alliance/";
 
+        public static string CharacterInfo { get { return Character_Info; } }
         public static string ApiUri { get { return Api_Uri; } }
         public static string AccountStatus { get { return Account_Status; } }
         public static string APIKeyInfo { get { return API_Key_Info; } }
