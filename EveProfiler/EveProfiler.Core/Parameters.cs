@@ -8,7 +8,12 @@ namespace EveProfiler.Core
 {
     public class Parameters
     {
-        public string ParamName { get; set; }
-        public string ParamValue { get; set; }
+        public string name { get; set; }
+        public string value { get; set; }
+
+        public string Parm2String()
+        {
+            return this.name + "=" + this.value;
+        }
     }
 }

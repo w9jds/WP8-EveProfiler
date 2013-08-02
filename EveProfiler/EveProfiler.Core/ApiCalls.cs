@@ -7,61 +7,57 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Net.Browser;
+using System.Net.Http;
 
 namespace EveProfiler.Core
 {
     public class ApiCalls
     {
-        public delegate void getResponded(string response);
-        public event getResponded ApiResponded;
 
-        public void getCall(string urlbase, string urlpath, List<Parameters> PassedParms)
+        public static bool getXml(string pathUri, List<Parameters> Params, ref string sResponse, ref ReturnResult rrReturn)
         {
+
             List<string> parms = new List<string>();
-            for (int i = 0; i < PassedParms.Count; i++)
-                parms.Add(NameValuePair(PassedParms[i].ParamName, PassedParms[i].ParamValue));
+            for (int i = 0; i < Params.Count; i++)
+            {
+                parms.Add(Params[i].Parm2String());
+            }
 
-            HttpWebRequest getXml = (HttpWebRequest)WebRequest.Create(CreateUrl((urlbase + urlpath), parms));
+            HttpClient getXml = new HttpClient();
 
-            getXml.Method = "GET";
+            getXml.Timeout = TimeSpan.FromSeconds(15);
+            getXml.BaseAddress = new Uri("https://api.eveonline.com");
 
-            getXml.BeginGetResponse(new AsyncCallback(getResponse), getXml);
-        }
-
-        private void getResponse(IAsyncResult ar)
-        {
             try
             {
-                HttpWebRequest getXml = ar.AsyncState as HttpWebRequest;
-
-                WebResponse result = getXml.EndGetResponse(ar);
-                 
-                ApiResponded(new StreamReader(result.GetResponseStream()).ReadToEnd());
+                HttpResponseMessage response = getXml.GetAsync(pathUri + CreateQueryString(parms)).Result;
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    sResponse = response.Content.ReadAsStringAsync().Result;
+                    return true;
+                }
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                return false;
             }
+            return false;
+
         }
 
-        private string NameValuePair(string name, string value)
+        private static string CreateQueryString(List<string> parms)
         {
-            return name + "=" + value;
-        }
-
-        private string CreateUrl(string baseurl, List<string> parms)
-        {
-            baseurl += "?";
+            string sReturn = "?";
 
             for (int i = 0; i < parms.Count; i++)
             {
-                if (i != parms.Count - 1)
-                    baseurl += parms[i] + "&";
+                if (i == parms.Count - 1)
+                    sReturn += parms[i];
                 else
-                    baseurl += parms[i];
+                    sReturn += parms[i] + "&";
             }
 
-            return baseurl;
+            return sReturn;
         }
 
     }

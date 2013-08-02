@@ -8,10 +8,12 @@ namespace EveProfiler.BusinessLogic.Character
 {
     public class Info
     {
+
         //Character Info
-        public string name { get; set; }
+        public string characterName { get; set; }
         public string race { get; set; }
         public string bloodline { get; set; }
+        public DateTime nextTrainingEnds { get; set; }
         public double accountBalance { get; set; }
         public double skillPoints { get; set; }
         public string shipName { get; set; }
@@ -27,5 +29,6 @@ namespace EveProfiler.BusinessLogic.Character
         public double securityStatus { get; set; }
         //employment history here
         public DateTime cachedUntil { get; set; }
+
     }
 }
