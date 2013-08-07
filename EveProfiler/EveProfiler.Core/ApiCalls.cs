@@ -31,18 +31,19 @@ namespace EveProfiler.Core
             try
             {
                 HttpResponseMessage response = getXml.GetAsync(pathUri + CreateQueryString(parms)).Result;
+                rrReturn.Status = response.StatusCode;
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
                     sResponse = response.Content.ReadAsStringAsync().Result;
                     return true;
                 }
+
+                return false;
             }
             catch (Exception e)
             {
                 return false;
             }
-            return false;
-
         }
 
         private static string CreateQueryString(List<string> parms)

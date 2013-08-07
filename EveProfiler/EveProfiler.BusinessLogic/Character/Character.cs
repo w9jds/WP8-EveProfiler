@@ -10,5 +10,8 @@ namespace EveProfiler.BusinessLogic.Character
     {
         public string CharacterID { get; set; }
         public Info CharacterInfo { get; set; }
+        public byte[] CharacterPort { get; set; }
+        public byte[] AlliancePort { get; set; }
+        public byte[] CorpPort { get; set; }
     }
 }
