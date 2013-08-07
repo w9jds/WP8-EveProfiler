@@ -17,7 +17,15 @@ namespace EveProfiler.Controls
             InitializeComponent();
         }
 
+        public void LoadControl(BusinessLogic.Character.Character Character)
+        {
 
+
+
+
+
+
+        }
 
 
 

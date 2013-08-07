@@ -29,14 +29,14 @@ namespace EveProfiler.DataAccess
             return rrResult;
         }
 
-        public Core.ReturnResult CharacterInfo(int CharacterID)
+        public Core.ReturnResult CharacterInfo(string CharacterID)
         {
             List<BusinessLogic.Character.Character> Characters = new List<BusinessLogic.Character.Character>();
 
             List<Core.Parameters> Parms = new List<Core.Parameters>();
             Parms.Add(new Core.Parameters { name = "keyid", value = "1996957" });
             Parms.Add(new Core.Parameters { name = "vCode", value = "I6YLp1vVB0KYAir2B3Z4mDIPtZrFHlpeysYYSaxGkjV4rO820NpTOBustmNsoEA4" });
-            Parms.Add(new Core.Parameters { name = "characterID", value = CharacterID.ToString() });
+            Parms.Add(new Core.Parameters { name = "characterID", value = CharacterID });
 
             bool bResponse = Core.ApiCalls.getXml(@"/eve/CharacterInfo.xml.aspx", Parms, ref sResponse, ref rrResult);
 

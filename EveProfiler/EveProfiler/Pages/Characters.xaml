@@ -11,21 +11,13 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait"  Orientation="Portrait"
-    shell:SystemTray.IsVisible="True">
+    shell:SystemTray.IsVisible="True" Loaded="Page_Loaded">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <!--Pivot Control-->
-        <phone:Pivot Title="MY APPLICATION">
-            <!--Pivot item one-->
-            <phone:PivotItem Header="item1">
-                <Grid/>
-            </phone:PivotItem>
+        <phone:Pivot x:Name="CharacterPivot" >
 
-            <!--Pivot item two-->
-            <phone:PivotItem Header="item2">
-                <Grid/>
-            </phone:PivotItem>
         </phone:Pivot>
     </Grid>
     
