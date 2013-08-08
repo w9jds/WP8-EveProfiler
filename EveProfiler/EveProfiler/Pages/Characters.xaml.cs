@@ -22,23 +22,23 @@ namespace EveProfiler.Pages
 
         private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            DataAccess.Get GetCharacters = new DataAccess.Get();
+            DataAccess.cEveProfiler callApi = new DataAccess.cEveProfiler();
             Core.ReturnResult rrResult = new Core.ReturnResult();
 
-            await CoreWindow.GetForCurrentThread().Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                rrResult = GetCharacters.CharacterList();
-                if (rrResult.Status == HttpStatusCode.OK)
+            //await CoreWindow.GetForCurrentThread().Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            //{
+                rrResult = callApi.getCharacterList();
+                if (rrResult.Status == HttpStatusCode.OK && rrResult.oReturn != null)
                     ThisAccount.Characters = (List<BusinessLogic.Character.Character>)rrResult.oReturn;
-            });
+            //});
 
-            await CoreWindow.GetForCurrentThread().Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+            CoreWindow.GetForCurrentThread().Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
             {
                 for (int i = 0; i < ThisAccount.Characters.Count; i++)
                 {
                     CoreWindow.GetForCurrentThread().Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
                     {
-                        rrResult = GetCharacters.CharacterInfo(ThisAccount.Characters[i].CharacterID);
+                        rrResult = callApi.getCharacterInfo(ThisAccount.Characters[i].CharacterID);
                         if (rrResult.Status == HttpStatusCode.OK)
                             ThisAccount.Characters[i].CharacterInfo = (BusinessLogic.Character.Info)rrResult.oReturn;
                     });

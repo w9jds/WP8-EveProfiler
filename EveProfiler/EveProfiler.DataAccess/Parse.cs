@@ -30,7 +30,7 @@ namespace EveProfiler.DataAccess
         {
             XDocument doc = XDocument.Parse(xml);
 
-            BusinessLogic.Character.Info thisCharacter = doc.Descendants("result").Select(x => new BusinessLogic.CharacterInfo()
+            BusinessLogic.Character.Info thisCharacter = doc.Descendants("result").Select(x => new BusinessLogic.Character.Info
             {
                 characterName = x.Element("characterName").Value,
                 race = x.Element("race").Value,

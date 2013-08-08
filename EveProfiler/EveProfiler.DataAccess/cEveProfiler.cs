@@ -8,12 +8,12 @@ using System.Xml.Linq;
 
 namespace EveProfiler.DataAccess
 {
-    public class Get
+    public class cEveProfiler
     {
         private String sResponse = string.Empty;
         private Core.ReturnResult rrResult = new Core.ReturnResult();
 
-        public Core.ReturnResult CharacterList()
+        public Core.ReturnResult getCharacterList()
         {
             List<BusinessLogic.Character.Character> Characters = new List<BusinessLogic.Character.Character>();
 
@@ -29,7 +29,7 @@ namespace EveProfiler.DataAccess
             return rrResult;
         }
 
-        public Core.ReturnResult CharacterInfo(string CharacterID)
+        public Core.ReturnResult getCharacterInfo(string CharacterID)
         {
             List<BusinessLogic.Character.Character> Characters = new List<BusinessLogic.Character.Character>();
 

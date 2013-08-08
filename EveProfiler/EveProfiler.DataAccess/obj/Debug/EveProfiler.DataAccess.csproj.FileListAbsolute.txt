@@ -7,3 +7,7 @@ C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAcc
 C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAccess\obj\Debug\EveProfiler.DataAccess.pdb
 C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAccess\Bin\Debug\EveProfiler.BusinessLogic.dll
 C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAccess\Bin\Debug\EveProfiler.BusinessLogic.pdb
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAccess\Bin\Debug\System.Net.Http.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAccess\Bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAccess\Bin\Debug\System.Net.Http.xml
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler.DataAccess\Bin\Debug\System.Net.Http.Primitives.xml

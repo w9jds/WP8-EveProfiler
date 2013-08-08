@@ -17,8 +17,13 @@
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <!--Pivot Control-->
         <phone:Pivot x:Name="CharacterPivot" >
-
+            <phone:Pivot.ItemTemplate>
+                <DataTemplate>
+                    <UserControl Name="CharacterHere" Content="{Binding}"/>
+                </DataTemplate>
+            </phone:Pivot.ItemTemplate>
         </phone:Pivot>
+        
     </Grid>
     
 </phone:PhoneApplicationPage>

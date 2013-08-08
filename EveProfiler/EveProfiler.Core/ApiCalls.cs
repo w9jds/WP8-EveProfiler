@@ -25,7 +25,6 @@ namespace EveProfiler.Core
 
             HttpClient getXml = new HttpClient();
 
-            getXml.Timeout = TimeSpan.FromSeconds(15);
             getXml.BaseAddress = new Uri("https://api.eveonline.com");
 
             try

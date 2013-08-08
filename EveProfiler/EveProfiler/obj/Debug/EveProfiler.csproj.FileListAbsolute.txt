@@ -32,7 +32,6 @@ C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Deb
 C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\EveProfiler.csprojResolveAssemblyReference.cache
 C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\App.g.cs
 C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\Controls\CharacterControl.g.cs
-C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\MainPage.g.cs
 C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\EveProfiler.g.resources
 C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\EveProfiler.Resources.AppResources.resources
 C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\EveProfiler.csproj.GenerateResource.Cache
@@ -44,3 +43,9 @@ C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Deb
 C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\XapCacheFile.xml
 C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\EveProfiler.BusinessLogic.dll
 C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\EveProfiler.BusinessLogic.pdb
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\obj\Debug\Pages\Characters.g.cs
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\System.Net.Http.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\System.Net.Http.xml
+C:\Users\Jeremy\Documents\GitHub\WP8-EveProfiler\EveProfiler\EveProfiler\Bin\Debug\System.Net.Http.Primitives.xml

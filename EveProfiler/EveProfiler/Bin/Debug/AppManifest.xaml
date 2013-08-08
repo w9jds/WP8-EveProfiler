@@ -4,5 +4,8 @@
     <AssemblyPart x:Name="EveProfiler.BusinessLogic" Source="EveProfiler.BusinessLogic.dll" />
     <AssemblyPart x:Name="EveProfiler.Core" Source="EveProfiler.Core.dll" />
     <AssemblyPart x:Name="EveProfiler.DataAccess" Source="EveProfiler.DataAccess.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls" Source="Microsoft.Phone.Controls.dll" />
+    <AssemblyPart x:Name="System.Net.Http" Source="System.Net.Http.dll" />
+    <AssemblyPart x:Name="System.Net.Http.Primitives" Source="System.Net.Http.Primitives.dll" />
   </Deployment.Parts>
 </Deployment>
